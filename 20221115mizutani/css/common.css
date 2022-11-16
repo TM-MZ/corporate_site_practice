@@ -177,14 +177,22 @@ a.link {
     height: 100%;
 }
 .modal__content-inner {
+    position: relative;
+    justify-content: center;
     box-sizing: border-box;
     background-color: white;
-    width: 80vw;
+    width: 400px;
     height: 600px;
-    padding: 50px 20px;
+}
+.contact__form{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
 }
 .contact__title {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 30px;
 }
 .contact__name {
@@ -206,7 +214,10 @@ a.link {
     margin-right: 20px;
     cursor: pointer;
 }
-
+.submit{
+    display: flex;
+    margin-top: 20px;
+}
 .footer {
     background-color: #000;
     box-sizing: border-box;
