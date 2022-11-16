@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/service.css" />
+        <title>株式会社TECH</title>
+    </head>
+    <body>
+        <header class="header" #id="header">
+            <p class="header-logo">TECH</p>
+            <nav class="header-nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item">
+                        <a href="./index.html">ホーム</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="#">事業内容</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="./blog.html">社員ブログ</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="./company.html">会社概要</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="drawer-nav" id="drawer-nav">
+                <ul class="drawer-nav__list">
+                    <li class="drawer-nav__item">
+                        <a href="./index.html">ホーム</a>
+                    </li>
+                    <li class="drawer-nav__item">
+                        <a href="#">事業内容</a>
+                    </li>
+                    <li class="drawer-nav__item">
+                        <a href="./blog.html">社員ブログ</a>
+                    </li>
+                    <li class="drawer-nav__item">
+                        <a href="./company.html">会社概要</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="humburger-menu" id="humburger-menu">
+                <span class="menu__line menu__line--top"></span>
+                <span class="menu__line menu__line--middle"></span>
+                <span class="menu__line menu__line--bottom"></span>
+            </div>
+        </header>
+        <main class="main">
+            <div class="banner">
+                <div class="copy">
+                    <h1 class="copy-title">事業内容</h1>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service__container">
+                    <div class="service__card">
+                        <img
+                            src="./img/service1.png"
+                            alt="IT人材育成事業"
+                            class="service__img"
+                        />
+                        <div class="service__content">
+                            <h3>IT人材育成事業</h3>
+                            <p>
+                                これまでに培った教育手法を活かして、短期間で即戦力のIT人材を育成します。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service__card">
+                        <img
+                            src="./img/service2.png"
+                            alt=""
+                            class="service__img"
+                        />
+                        <div class="service__content">
+                            <h3>コーチング事業</h3>
+                            <p>
+                                目標達成を最短で実現するために、プロのコーチによるマンツーマンのサポートを実施します。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service__card">
+                        <img
+                            src="./img/service3.png"
+                            alt=""
+                            class="service__img"
+                        />
+                        <div class="service__content">
+                            <h3>ITコンサル事業</h3>
+                            <p>
+                                経営戦略にIT戦略を策定し、システム開発の提案やシステムの最適化を通じて、企業の経営をサポートします。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service__card">
+                        <img
+                            src="./img/service4.png"
+                            alt=""
+                            class="service__img"
+                        />
+                        <div class="service__content">
+                            <h3>デジタルトランスフォーメーション事業</h3>
+                            <p>
+                                人々の生活をよりよいものに変革するために様々なデジタル技術を活用し、革新的なソリューションやサービスを生み出します。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <h2 class="title">お問い合わせ</h2>
+                <p>
+                    お仕事のご依頼や採用に関してはお問い合わせにて承っております。
+                </p>
+                <button class="contact__button" id="openBtn">
+                    お問い合わせ
+                </button>
+            </div>
+        </main>
+        <div id="modal" class="modal">
+            <div class="modal__content">
+                <div class="modal__content-inner">
+                    <h1 class="contact__title">お問い合わせフォーム</h1>
+                    <form action="#" class="contact__form">
+                        <div>
+                            <p class="contact__name">氏名</p>
+                            <input type="text" name="name" id="name" />
+                        </div>
+                        <div class="form__item">
+                            <p class="contact__name">メールアドレス</p>
+                            <input type="email" name="email" id="email" />
+                        </div>
+                        <div class="form__item">
+                            <p class="contact__name">お問い合わせ内容</p>
+                            <textarea
+                                name="content"
+                                id="content"
+                                cols="30"
+                                rows="10"
+                            ></textarea>
+                        </div>
+                        <div class="submit">
+                            <input
+                                type="submit"
+                                class="form__button"
+                                value="送信する"
+                            />
+                            <input
+                                type="button"
+                                id="closeBtn"
+                                class="form__button"
+                                value="閉じる"
+                            />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <small>&copy; 2020 TECH inc.</small>
+            <nav class="footer__nav">
+                <ul class="footer-nav__list">
+                    <li class="footer-nav__item">
+                        <a href="./index.html">ホーム</a>
+                    </li>
+                    <li class="footer-nav__item">|</li>
+                    <li class="footer-nav__item">
+                        <a href="#">事業内容</a>
+                    </li>
+                    <li class="footer-nav__item">|</li>
+                    <li class="footer-nav__item">
+                        <a href="./blog.html">社員ブログ</a>
+                    </li>
+                    <li class="footer-nav__item">|</li>
+                    <li class="footer-nav__item">
+                        <a href="./company.html">会社概要</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <button class="scroll-top" id="buttonToTop">↑</button>
+    </body>
+    <script src="./js/main.js"></script>
+</html>

@@ -1,0 +1,49 @@
+.banner{
+    position: relative;
+    width: 100%;
+    height: 16vw;
+    margin-bottom:50px;
+    background: url("../img/mv.png") center/cover no-repeat;
+}
+.copy {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.copy-title {
+    color: #fff;
+    font-size: 2.5vw;
+}
+
+@media screen and (max-width: 768px) {
+    .copy-title {
+        font-size: 5vw;
+    }
+}
+.company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company__table{
+    width:70%;
+}
+.company__table tr{
+    border-top:1px solid #000;
+}
+.company__table tr:last-of-type{
+    border-bottom: 1px solid #000;
+}
+.company__table th{
+    text-align: center;
+    font-size: 14px;
+    padding:20px 0;
+}
+.company__table td{
+    text-align: left;
+    font-size: 14px;
+    padding:20px 0;
+}
