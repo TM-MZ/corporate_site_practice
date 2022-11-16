@@ -51,7 +51,7 @@
 .service__card p {
     font-size: 1.2vw;
     margin-bottom: 5px;
-    line-height: 18px;
+    line-height: 1.5em;
 }
 .service__img {
     width: 23%;
@@ -80,7 +80,7 @@
     .service__card p {
         font-size: 3vw;
         margin-bottom: 5px;
-        line-height: 4vw;
+        line-height: 1.5em;
     }
     .service__img {
         width: 100%;

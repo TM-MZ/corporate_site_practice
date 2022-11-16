@@ -52,7 +52,7 @@
 .blog__card p {
     font-size: 1.2vw;
     margin-bottom: 5px;
-    line-height: 15px;
+    line-height: 1.5em;
 }
 @media screen and (max-width: 768px) {
     .blog__card {
